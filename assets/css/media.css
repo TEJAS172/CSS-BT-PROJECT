@@ -1,0 +1,156 @@
+/* MOBILE */
+@media(max-width:902px){
+    [class*="col"]{
+     width: 100%;
+    }
+    /* icons */
+    .icons{
+        text-align: left;
+    }
+    .icons>b{
+        margin: auto;
+    }
+    /* Navigation */
+    header>nav{
+        text-align: center;
+    }
+    header>nav>ul{
+        float: none;
+    }
+    header>nav>ul>li{
+        display: block;
+    }
+    /* Banner code */
+    .desktop-banner,
+    .Tablet-banner{
+        display: none;
+    }
+    .Mobile-banner{
+        display: block;
+        overflow: hidden;
+        position: relative;
+    }
+    .Mobile-banner>video{
+        width: 100%;
+    }
+    .Mobile-banner>div{
+        position: absolute;
+        top: 20%;
+        left: 4%;
+        color: aliceblue;
+        line-height: 1.5;
+    }
+    .Mobile-banner>div>p,
+    .Mobile-banner>div>button{
+        font-size: 20px;
+    }
+    .Mobile-banner>div>button{
+        padding: 20px;
+        margin: 20px auto;
+        background-color: red;
+        color: aliceblue;
+        border: none;
+        border-radius: 50px;
+        transition: 1s;
+        cursor: pointer;
+    }
+    .Mobile-banner>div>button:hover{
+        background-color: transparent;
+    }
+
+
+}
+/* TABLET */
+@media(min-width:903px) and (max-width:1200px){
+     /* GRID */
+     .colTab1{
+        width: 8.33%;
+     }
+     .colTab2{
+        width: 16.66%;
+     }
+     .colTab3{
+        width: 25%;
+     }
+     .colTab4{
+     width: 33.33%;
+     }
+     .colTab5{
+        width: 41.66%;
+     }
+     .colTab6{
+        width: 50%;
+     }
+     .colTab7{
+        width: 58.33%;
+     }
+     .colTab8{
+        width: 68.66%;
+     }
+     .colTab9{
+        width: 75%;
+     }
+     .colTab10{
+        width: 83.33%;
+     }
+     .colTab11{
+        width: 91.66%;
+     }
+     .colTab12{
+        width: 100%;
+     }
+     [class*="colTab"]{
+        float: left;
+        padding: 10px;
+     }
+     .icons{
+        text-align: left;
+     }
+     /* Navigation */
+     header>nav{
+        text-align: center;
+     }
+     header>nav>ul{
+        float: none;
+     }
+
+     /* Banner code */
+     .desktop-banner,
+    .Mobile-banner{
+        display: none;
+    }
+    .Tablet-banner{
+        display: block;
+        overflow: hidden;
+        position: relative;
+    }
+    .Tablet-banner>video{
+        width: 100%;
+    }
+    .Tablet-banner>div{
+        position: absolute;
+        top: 20%;
+        left: 4%;
+        color: aliceblue;
+        line-height: 1.5;
+    }
+    .Tablet-banner>div>p,
+    .Tablet-banner>div>button{
+        font-size: 20px;
+    }
+    .Tablet-banner>div>button{
+        padding: 20px;
+        margin: 20px auto;
+        background-color: red;
+        color: aliceblue;
+        border: none;
+        border-radius: 50px;
+        transition: 1s;
+        cursor: pointer;
+    }
+    .Tablet-banner>div>button:hover{
+        background-color: transparent;
+    }
+
+
+}
